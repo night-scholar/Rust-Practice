@@ -4,7 +4,7 @@ fn main(){
         Float(f64),
         Text(String),
     }
-    
+     
     let row = vec![
         SpreadsheetCell::Int(4),
         SpreadsheetCell::Text(String::from("blue")),
