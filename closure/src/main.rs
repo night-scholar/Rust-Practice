@@ -75,7 +75,7 @@ fn main3() {
 
     println!("{}", contains(&1));
     println!("{}", contains(&4));
-
+ 
     //println!("There're {} elements in vec", haystack.len());
     // ^ 取消上面一行的注释将导致编译时错误，因为借用检查不允许在变量被移动走
     // 之后继续使用它。
