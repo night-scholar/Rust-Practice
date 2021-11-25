@@ -11,7 +11,7 @@ impl <T,U> Point <T,U>{
             y:point.y,
         }
     }
-}
+} 
 
 fn main(){
     let point1 = Point{x:1,y:2};
