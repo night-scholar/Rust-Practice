@@ -5,4 +5,4 @@ fn get (x :i32)->i32{
 fn main(){
     let a = get(5);
     println!("{}",a)
-}
+} 
