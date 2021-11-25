@@ -10,7 +10,7 @@ fn main() {
             optional = None;
         } else {
             println!("`i` is `{:?}`. Try again.", i);
-            optional = Some(i + 1);
+            optional = Some(i + 1); 
         }
         // ^ 使用的缩进更少，并且不用显式地处理失败情况。
     }
