@@ -1,0 +1,5 @@
+Searching for test
+In file test.txt
+With text:
+i am ck
+i am yexingshusheng

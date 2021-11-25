@@ -1,0 +1,9 @@
+[package]
+name = "定义结构体的方法"
+version = "0.1.0"
+authors = ["夜行书生 <yexingshusheng@aliyun.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
