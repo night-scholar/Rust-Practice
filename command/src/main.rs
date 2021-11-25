@@ -4,7 +4,7 @@ mod lib;
 fn main() {
     //读取启动参数
     let args: Vec<String> = env::args().collect();
-
+ 
     //调用lib.rs文件下的Config的结构体的new方法
     //闭包读取失败后打印失败原因并退出
     let config = lib::Config::new(&args).unwrap_or_else(|error| {
