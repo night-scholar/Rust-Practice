@@ -15,7 +15,7 @@ impl TryFrom<i32> for EvenNumber {
             Err(())
         }
     }
-}
+} 
 
 fn main() {
     // TryFrom

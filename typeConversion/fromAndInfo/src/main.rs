@@ -14,7 +14,7 @@ fn main() {
 }
 
 #[derive(Debug)]
-struct Number {
+struct Number { 
     value: i32,
 }
 
