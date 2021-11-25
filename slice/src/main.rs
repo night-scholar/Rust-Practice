@@ -19,7 +19,7 @@ fn first_word(s: &String) -> &str {
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
             //字符串实质字面上就是切片，只不过他是str类型而非string类型
-            return &s[0..i];
+            return &s[0..i]; 
         }
     }
 
