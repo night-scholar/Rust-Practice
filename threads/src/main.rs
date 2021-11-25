@@ -1,6 +1,7 @@
 use std::thread;
 use std::time::Duration;
 
+#[allow(dead_code)]
 fn main1() {
     //为了创建一个新线程，需要调用 thread::spawn 函数并传递一个闭包
     let handle = thread::spawn(|| {
