@@ -13,7 +13,7 @@ fn iterator_filter(){
     v_struct.push(Shoe{size:12,style: String::from("Black")});
     let shoes  = shoes_in_mysize(v_struct, 12);
     println!("{:?}",shoes);
-}
+} 
 
 fn shoes_in_mysize(shoes:Vec<Shoe>,shoes_size:u32) -> Vec<Shoe>{
 
