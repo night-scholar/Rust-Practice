@@ -5,7 +5,7 @@ fn main1(){
         if counter >= 10{
             break counter*2
         }
-    };
+    }; 
     println!("{}",result);
 }
 
