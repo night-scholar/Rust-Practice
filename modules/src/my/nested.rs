@@ -6,3 +6,4 @@ pub fn function() {
 fn private_function() {
     println!("called `my::nested::private_function()`");
 }
+ 
