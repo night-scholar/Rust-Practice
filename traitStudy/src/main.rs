@@ -30,7 +30,7 @@ pub struct Tweet {
 }
 
 //提供Summary里的方法给Tweet
-impl Summary for Tweet {
+impl Summary for Tweet {  
     fn summarize(&self) -> String {
         format!("{}: {}", self.username, self.content)
     }
