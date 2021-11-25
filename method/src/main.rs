@@ -14,7 +14,7 @@ impl Point {
     // 静态方法不需要被实例调用
     // 这类方法一般用作构造器（constructor）
     //Point结构体的方法origin，返回值为结构体Point
-    fn origin() -> Point {
+    fn origin() -> Point { 
         Point { x: 0.0, y: 0.0 }
     }
 
