@@ -18,6 +18,7 @@ fn main1() {
 fn main() {
     //原子引用计数 Arc
     //使用 Arc 包装一个 Mutex 能够实现在多线程之间共享所有权
+    //因为 counter 是不可变的，不过可以获取其内部值的可变引用
     let counter = Arc::new(Mutex::new(0));
     let mut handles = vec![];
 
