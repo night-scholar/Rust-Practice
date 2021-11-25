@@ -1,7 +1,7 @@
 #[allow(dead_code)]
 
 enum Book{
-    Go {index : u32},
+    Go {index : u32}, 
     Rust {index : u32},
     Solidity {index : u32}
 }
