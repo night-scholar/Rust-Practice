@@ -10,7 +10,7 @@ fn main() {
         if error.kind() == ErrorKind::NotFound {
             File::create("hello.txt").unwrap_or_else(|error| {
                 panic!("Tried to create file but there was a problem: {:?}", error);
-            })
+            }) 
         } else {
             panic!("There was a problem opening the file: {:?}", error);
         }
