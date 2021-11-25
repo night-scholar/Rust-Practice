@@ -24,3 +24,4 @@ fn main() {
         rect1.area()
     );
 }
+ 
