@@ -27,7 +27,7 @@ fn main() {
         let handle = thread::spawn(move || {
             let mut num = counter.lock().unwrap();
 
-            *num += 1;
+            *num += 1; 
         });
         handles.push(handle);
     }
@@ -35,6 +35,5 @@ fn main() {
     for handle in handles {
         handle.join().unwrap();
     }
-
     println!("Result: {}", *counter.lock().unwrap());
 }
